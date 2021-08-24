@@ -25,7 +25,7 @@ server.on('request', (req, res) => {
     //     });
 
     // Solution 3: pipe is best way to consume stream methods and events or use them. 
-    const readable = fs.createReadStream("test-file.txt");
+    const readable = fs.createReadStream("./starter/test-file.txt");
     readable.pipe(res);
     // readableSource.pipe(writeableDEST)
 
