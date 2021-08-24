@@ -1,2 +1,2 @@
 # how-node-works
-Learning how node works, actively teaching myself in order to work towards being a better full-stack developer.
+Actively learning more about node.js and how it works, and teaching myself it, in order to work towards being a better full-stack developer.
