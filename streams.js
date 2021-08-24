@@ -22,7 +22,7 @@ server.on('request', (req, res) => {
     //         console.log(err);
     //         res.statusCode = 500;
     //         res.end("File not found");
-    //     })
+    //     });
 
     // Solution 3: pipe is best way to consume stream methods and events or use them. 
     const readable = fs.createReadStream("test-file.txt");
